@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34f79c6f.css",
+    "main.js": "/static/js/main.b3f35b9b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Meta-Logo.png": "/static/media/Meta-Logo.322d4ea5d2762a5f6ba1.png",
+    "static/media/back-1.jpg": "/static/media/back-1.1a04d13ed075a5eb588b.jpg",
+    "static/media/back.jpg": "/static/media/back.1a04d13ed075a5eb588b.jpg",
+    "static/media/Facebook_f_logo.png": "/static/media/Facebook_f_logo.9083dadf53ba570bdb73.png",
+    "static/media/email.jpg": "/static/media/email.f6da258b87ecb10e6eb5.jpg",
+    "static/media/ref.png": "/static/media/ref.93e37308631bbf9730c7.png",
+    "static/media/intelectual.png": "/static/media/intelectual.1ccbfa411d6d9c636648.png",
+    "static/media/community.png": "/static/media/community.bc3145557a4ae42dd53c.png",
+    "index.html": "/index.html",
+    "main.34f79c6f.css.map": "/static/css/main.34f79c6f.css.map",
+    "main.b3f35b9b.js.map": "/static/js/main.b3f35b9b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34f79c6f.css",
+    "static/js/main.b3f35b9b.js"
+  ]
+}

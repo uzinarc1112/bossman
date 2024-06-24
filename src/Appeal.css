@@ -1,0 +1,129 @@
+/* Add this to your existing CSS or create a new CSS file */
+
+/* Remove default borders and box shadows from all inputs */
+.form-control,
+.textarea,
+input,
+.password-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: none; /* Remove the default box shadows */
+}
+
+/* Style the input when focused */
+.form-control:focus,
+.textarea:focus,
+input:focus,
+.password-input:focus {
+  outline: none; /* Remove the default focus outline */
+  box-shadow: none;
+}
+
+/* Set the input width to 100% */
+.form-control,
+.textarea {
+  width: 100%;
+}
+
+/* Add this to your CSS file or style block in your component */
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px auto; /* Center the card horizontally */
+  max-width: 700px; /* Set a maximum width for the card */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.btn-primary {
+  background-color: #4080ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:disabled {
+  background-color: #a0c8ff;
+  cursor: not-allowed;
+}
+
+.modal-content {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 400px; /* Set a maximum width for the modal */
+  margin: 0 auto; /* Center the modal horizontally */
+}
+
+.password-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.password-error {
+  color: red;
+  font-size: 12px;
+  display: block;
+}
+
+.login-success {
+  display: block;
+  color: green;
+  font-size: 12px;
+}
+
+.custom-modal {
+  max-width: 600px; /* Set your desired max-width */
+  width: 100%; /* Set your desired width */
+  margin: 1.75rem auto; /* Optional: Adjust margin for centering */
+}
+
+@media (max-width: 600px) {
+  /* Apply styles for screens with a maximum width of 600 pixels */
+  .card-body {
+      padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
